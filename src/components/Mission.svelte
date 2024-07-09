@@ -1,4 +1,4 @@
-<div id="mission" class="bg-gray-900 text-white">
+<div id="mission" class="bg-[#1E1E1E] text-white">
   <div class="max-w-7xl mx-auto text-center p-8">
     <h1 class="text-4xl font-montserrat font-bold mb-4">Our Mission</h1>
     <p class="text-md mb-8 font-hind">
