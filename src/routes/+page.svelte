@@ -4,8 +4,8 @@
    import Mission from "../components/Mission.svelte";
    import Work from "../components/Work.svelte";
    import Faq from "../components/Faq.svelte";
+   import Testimonal from "../components/Testimonal.svelte";
    import Contact from "../components/Contact.svelte";
-   import Footer from "../components/Footer.svelte";
 </script>
 
 <Navbar />
@@ -13,5 +13,5 @@
 <Mission/>
 <Work/>
 <Faq/>
+<Testimonal/>
 <Contact/>
-<Footer/>

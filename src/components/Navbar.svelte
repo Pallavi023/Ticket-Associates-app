@@ -1,6 +1,5 @@
 <script>
-
-    let menuItems = ["Home", "Mission", "How it Works", "Faq", "Testimonial", "Contact"];
+    let menuItems = ["Home", "Mission", "How it Works", "FAQ", "Testimonial", "Contact"];
 
     function scrollToSection(id) {
         if (id === "how-it-works") {
@@ -13,7 +12,7 @@
     }
 </script>
 
-<nav class="bg-gray-900 text-white flex justify-between items-center px-8 py-8 shadow-md">
+<nav class="fixed top-0 left-0 right-0 z-10 bg-[#1E1E1E] text-white flex justify-between items-center px-8 py-4 shadow-md">
     <div class="flex items-center">
         <img src="/images/logo.svg" alt="Logo" class="h-10 mr-2">
     </div>

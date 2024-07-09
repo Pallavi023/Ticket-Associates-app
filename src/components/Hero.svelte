@@ -1,20 +1,18 @@
-
-  
-  <div class="hero bg-gray-900 text-white p-8 flex flex-col items-center text-center relative md:flex-row md:text-left md:justify-around">
-    <div class="text-content max-w-md mx-auto w-80 h-92 md:max-w-1/2">
-      <h1 class="text-4xl mb-4 leading-tight md:text-5xl">
-        Ensuring <span class="text-blue-500">Trust</span> and <span class="text-blue-500">Security</span> in Every Transaction
+<div class="hero w-full bg-[#1E1E1E] p-6 text-white flex flex-col items-center text-center relative md:flex-row md:text-left md:justify-around md:p-20">
+  <div class="bg-[#292D34] sm:p-10 rounded-lg border border-gray-700 flex flex-col md:flex-row w-full md:w-3/4 gap-6 md:gap-20">
+    <div class="text-content mr-0 md:mr-8">
+      <h1 class="text-2xl md:text-4xl mb-6 md:mb-10 leading-tight font-montserrat font-bold">
+        Ensuring <span class="text-blue-500">Trust and <br class="hidden md:inline">Security</span> in Every<br class="hidden md:inline"> Transaction
       </h1>
-      <p class="mb-8">
-        We prioritize secure and transparent transactions, valuing your trust and online security. All purchases require the buyer’s authentic information, ensuring identity protection and transaction integrity. Our team, based in the USA, is dedicated to providing clear and trustworthy support for every transaction.
+      <p class="mb-6 md:mb-10 font-hind text-sm md:text-[15px] leading-[22px] md:leading-[27px] text-[#E8E8E8]">
+        We prioritize secure and transparent transactions, valuing your trust <br class="hidden md:inline"> and online security. All purchases require the buyer’s authentic <br class="hidden md:inline">information, ensuring identity protection and transaction integrity. <br class="hidden md:inline">Our team, based in the USA, is dedicated to providing clear and<br class="hidden md:inline"> trustworthy support for every transaction.
       </p>
-      <button class="bg-blue-500 text-white border-none py-4 px-8 rounded-2xl cursor-pointer font-hind">
+      <a href="#contact" class="bg-[#89B8FA] text-[#000000] border-none rounded-[50px] cursor-pointer font-hind font-bold inline-block py-2 px-6 mt-4 md:mt-6">
         Apply Now
-      </button>
+      </a>
     </div>
-    <div class="image-content max-w-full mt-8 text-center relative overflow-hidden rounded-lg shadow-lg md:max-w-1/2 md:mt-0">
-      <div class="image-overlay absolute top-0 left-0 w-full h-full bg-cover bg-center-right opacity-40" style="background-image: url('/images/group.svg');"></div>
-      <img src="/images/hero.png" alt="Hero Image" class="max-w-full rounded-lg relative z-10">
+    <div class="image-content max-w-full text-center relative overflow-hidden">
+      <img src="/images/hero.svg" alt="Hero Image" class="max-w-full rounded-lg h-64 md:h-[500px]">
     </div>
   </div>
-  
+</div>
